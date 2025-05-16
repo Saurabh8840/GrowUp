@@ -6,6 +6,9 @@ import './App.css';
 import PurposeSection from './components/PurposeSection';
 import FeaturesSection from './components/FeaturesSection';
 import ScheduleSection from './components/ScheduleSection';
+import MonitorSection from './components/MonitorSection';
+import PricingSection from './components/PricingSection';
+import NewsLetter from './components/NewsLetter';
 
 
 function App() {
@@ -20,6 +23,9 @@ function App() {
        <PurposeSection />
        <FeaturesSection />
        <ScheduleSection />
+       <MonitorSection />
+       <PricingSection />
+       <NewsLetter />
      </div>
      </main>
      
