@@ -55,8 +55,8 @@ const TestimonialSection = () => {
   ];
 
   return (
-    <div>
-      <section className='py-16 px-4 max-w-7xl mx-auto'>
+    
+      <section id='testimonials' className='py-16 px-4 max-w-7xl mx-auto'>
         <div className='text-center mb-12'>
             <h2 className='text-3xl font-bold md:text-4xl mb-4'>What our happy client say</h2>
             <p className='text-gray-600 '>Things that make it the best place to start trading</p>
@@ -72,8 +72,8 @@ const TestimonialSection = () => {
                 prevEl:'.swiper-button-prev-custom',
                 }
             }
-        slidesPerView={1}
-        spaceBetween={10}
+        // slidesPerView={30}
+        spaceBetween={30}
         pagination={{
           clickable: true,
         }}
@@ -89,11 +89,11 @@ const TestimonialSection = () => {
           },
         }}
         modules={[Navigation]}
-        className="tesimonials-swiper  md:mb-12"
+        className="tesimonials-swiper  md:mb-12" 
       >
         {
-            tesimonials.map((testimonial,index)=>(
-                <SwiperSlide key={index} className='h-full md:py-12 py-4 '>
+            tesimonials.map((testimonial,starIndex)=>(
+                <SwiperSlide key={testimonial.id} className='h-full md:py-12 py-4 '>
                     <div className='text-center bg-white p-4 rounded-lg shadow-md h-full flex flex-col'>
                         <div className='w-24  h-24 mx-auto mb-4'>
                             <img src={testimonial.image} alt="" className='w-full h-full object-cover rounded-full' />
@@ -130,7 +130,7 @@ const TestimonialSection = () => {
         </div>
         </div>
       </section>
-    </div>
+    
   )
 }
 

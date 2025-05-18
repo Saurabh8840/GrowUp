@@ -36,7 +36,7 @@ const NewsLetter = () => {
   ]
 
   return (
-    <section className='py-20 container mx-auto px-4 sm:px-6 lg:px-8'>
+    <section  id='services' className='py-20 container mx-auto px-4 sm:px-6 lg:px-8'>
 
         <div className='flex flex-col md:flex-row  items-center justify-between gap-30 lg:gap-24'>
             {/* Header */}
@@ -79,7 +79,7 @@ const NewsLetter = () => {
                 </div>
 
         </div>
-    </section>
+    </section> 
 
   )
 }

@@ -29,9 +29,10 @@
      display:none;
 }
 
-.swiper-slide-next,.swiper-slide-prev{
+.swiper-slide-next, .swiper-slide-prev{
   display:none;
 }
+
 
 .swiper-button-next-custom.swiper-button-disabled,
 .swiper-button-prev-custom.swiper-button-disabled{
