@@ -23,6 +23,7 @@ function App() {
        <Hero />
        <CompanyLogo />
        <PurposeSection />
+{/*        <FeaturesSection /> */}
        <FeaturesSection />
        <ScheduleSection />
        <MonitorSection />
